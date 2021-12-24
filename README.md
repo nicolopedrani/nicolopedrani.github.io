@@ -35,6 +35,8 @@ dog's back.
 
 *   Another item in the list.
 
+Nico :+1: This PR looks great - it's ready to merge! :shipit:
+
 ```markdown
 Syntax highlighted code block
 
