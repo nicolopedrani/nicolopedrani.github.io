@@ -2,16 +2,17 @@ theme: jekyll-theme-leap-day
 title: Nicolo Pedrani homepage
 description: Phd Student at IIT
 
+layout: page
+title: "stuff"
+permalink: https://nicolopedrani.github.io
+
+markdown: kramdown
+
 header_pages:
   - README.md
-  - stuff.md
 
 plugins:
   - jemoji
-
-author: 
-  name: Nicolo
-  email: nicopepe06@gmail.com
 
 show_excerpts: true
 google_analytics: UA-NNNNNNNN-N
