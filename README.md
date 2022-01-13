@@ -2,9 +2,9 @@
 
 Welcome to my personal web-page. My name is Nicolo' Pedrani and I am currently a Phd Student at Istituto Italiano di Tecnologia in Genova.  
 I work with the **atomistic simulations group** headed by Prof. Michele Parrinello.  
-The output of this [webpage] can be found at https://nicolopedrani.github.io/    
+The output of this webpage can be found at https://nicolopedrani.github.io/    
+       
      
-   
 
 ## Welcome to GitHub Pages
 
