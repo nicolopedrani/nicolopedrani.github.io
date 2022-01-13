@@ -1,10 +1,11 @@
+layout: page
+theme: jekyll-theme-leap-day
+title: "stuff"
+permalink: https://nicolopedrani.github.io
+
 theme: jekyll-theme-leap-day
 title: Nicolo Pedrani homepage
 description: Phd Student at IIT
-
-layout: page
-title: "stuff"
-permalink: https://nicolopedrani.github.io
 
 markdown: kramdown
 
