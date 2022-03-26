@@ -1,350 +1,110 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
 <!--
-	You should always include the lang attribute inside the <html> tag, to declare the language of the Web page. This is meant to assist search engines and browsers.
-	-->
-
-<body style="background-color:powderblue;">
-<head>
-<title>html basis</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style>
-    a:link {
-      color: green;
-      background-color: transparent;
-      text-decoration: none;
-    }
-    a:visited {
-      color: pink;
-      background-color: transparent;
-      text-decoration: none;
-    }
-    a:hover {
-      color: red;
-      background-color: transparent;
-      text-decoration: underline;
-    }
-    a:active {
-      color: yellow;
-      background-color: transparent;
-      text-decoration: underline;
-    }
-    table, th, td {
-        border: 1px solid black;
-        border-radius: 10px;
-        border-style: dotted;
-    }
-    th, td {
-        border: 5px solid red; 
-        background-color: blue;
-        border-color: red;
-    }
-    </style>
-</head>
-
-<h1>1  Heading</h1>
-<h2 id="index">2  Heading</h2>
-<h3>3  Heading</h3>
-<h4>4  Heading</h4>
-<h5>5  Heading</h5>
-<h6>6  Heading</h6>
-
-<p>My first paragraph.</p>
-<p>Second paragraph.</p>
-<hr>
-
-<h2>HTML Links</h2>
-<p>HTML links are defined with the a tag:</p>
-
-<a href="https://www.w3schools.com">This is a link</a>
-<hr>
-
-<h2>HTML Images</h2>
-<!--
-	The required alt attribute for the <img> tag specifies an alternate text for an image, if the image for some reason cannot be displayed. This can be due to slow connection, or an error in the src attribute, or if the user uses a screen reader.
-	-->
-<p>HTML images are defined with the img tag:</p>
-
-<img src="HTML_TUTORIAL/w3schools.jpg" alt="W3Schools.com" width="104" height="142">
-
-<p>This is a <br> paragraph with a line break.</p>
-<hr>
-
-<h2>The style Attribute</h2>
-<p>The style attribute is used to add styles to an element, such as color,size,font:</p>
-
-<p style="color:red;">This is a red paragraph.</p>
-
-<hr>
-<h2 title="I'm a header">The title Attribute</h2>
-
-<p title="I'm a tooltip">Mouse over this paragraph, to display the title attribute as a tooltip.</p>
-<hr>
-
-<h1 style="font-size:60px;">Heading 1</h1>
-
-<p>You can change the size of a heading with the style attribute, using the font-size property.</p>
-<hr>
-
-<p>The pre tag preserves both spaces and line breaks:</p>
-
-<pre>
-   My Bonnie lies over the ocean.
-
-   My Bonnie lies over the sea.
-
-   My Bonnie lies over the ocean.
-   
-   Oh, bring back my Bonnie to me.
-</pre>
-
-<hr>
-
-<p> Setting the style of an HTML element, can be done with the style attribute.
-The HTML style attribute has the following syntax:</p>
-<p>I am normal</p>
-<p style="color:red;">I am red</p>
-<p style="color:blue;">I am blue</p>
-<p style="font-size:50px;">I am big</p>
-<hr>
-
-
-<h1 style="background-color:blue;">This is a heading</h1>
-<p style="background-color:tomato;">This is a paragraph.</p>
-<hr>
-
-<h1 style="color:blue;">This is a heading</h1>
-<p style="color:red;">This is a paragraph.</p>
-<hr>
-
-<h1 style="font-family:verdana;">This is a heading</h1>
-<p style="font-family:courier;">This is a paragraph.</p>
-<hr>
-
-<h1 style="font-size:300%;">This is a heading</h1>
-<p style="font-size:160%;">This is a paragraph.</p>
-<hr>
-
-<h1 style="text-align:center;">Centered Heading</h1>
-<p style="text-align:center;">Centered paragraph.</p>
-<hr>
-
-<p><b>This text is bold</b></p>
-<p><i>This text is italic</i></p>
-<p>This is<sub> subscript</sub> and <sup>superscript</sup></p>
-
-<!--
-
-Formatting elements were designed to display special types of text:
-
-<b> - Bold text
-<strong> - Important text
-<i> - Italic text
-<em> - Emphasized text
-<mark> - Marked text
-<small> - Smaller text
-<del> - Deleted text
-<ins> - Inserted text
-<sub> - Subscript text
-<sup> - Superscript text
-
-	-->
-
-<hr>
-
-<p>Browsers usually indent blockquote elements.</p>
-
-<blockquote cite="http://www.worldwildlife.org/who/index.html">
-For nearly 60 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by more than one million members in the United States and close to five million globally.
-</blockquote>
-<hr>
-
-
-<p>The <q title="World Health Organization">WHO</q> was founded in 1948.</p>
-
-
-<p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
-
-<p>Marking up abbreviations can give useful information to browsers, translation systems and search-engines.</p>
-
-<hr>
-
-<p>The HTML address element defines contact information (author/owner) of a document or article.</p>
-
-<address>
-Written by John Doe.<br> 
-Visit us at:<br>
-Example.com<br>
-Box 564, Disneyland<br>
-USA
-</address>
-
-<hr>
-
-<h1 style="border: 2px solid Tomato;">Hello World</h1>
-
-<h1 style="border: 2px solid DodgerBlue;">Hello World</h1>
-
-<h1 style="border: 2px solid Violet;">Hello World</h1>
-
-<hr>
-
-<!-- HTML_TUTORIAL/-->
-
-<p><a href="#C4">Jump to Chapter 4</a></p>
-<p><a href="#C10">Jump to Chapter 10</a></p>
-<p><a href="HTML_TUTORIAL/background.html#index">Jump to background in html</a></p>
-<p><a href="HTML_TUTORIAL/table_padding_spacing.html#index">Jump to table padding spaces in html</a></p>
-<p><a href="HTML_TUTORIAL/link_botton.html#index">Jump to link botton in html</a></p>
-<p><a href="HTML_TUTORIAL/external_css_example.html#index">Jump to external_css in html</a></p>
-<p><a href="HTML_TUTORIAL/css_test.html#index">Jump to css test in html</a></p>
-
-
-<h2>Chapter 1</h2>
-<p>This chapter explains ba bla bla</p>
-
-<h2>Chapter 2</h2>
-<p>This chapter explains ba bla bla</p>
-
-<h2>Chapter 3</h2>
-<p>This chapter explains ba bla bla</p>
-
-<h2 id="C4">Chapter 4</h2>
-<p>This chapter explains ba bla bla</p>
-
-<h2>Chapter 5</h2>
-<p>This chapter explains ba bla bla</p>
-
-<h2>Chapter 6</h2>
-<p>This chapter explains ba bla bla</p>
-
-<h2>Chapter 7</h2>
-<p>This chapter explains ba bla bla</p>
-
-<h2>Chapter 8</h2>
-<p>This chapter explains ba bla bla</p>
-
-<h2>Chapter 9</h2>
-<p>This chapter explains ba bla bla</p>
-
-<h2 id="C10">Chapter 10</h2>
-<p>This chapter explains ba bla bla</p>
-
-<h2>Chapter 11</h2>
-<p>This chapter explains ba bla bla</p>
-
-<h2>The target Attribute</h2>
-
-<a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a> 
-
-<p>If target="_blank", the link will open in a new browser window or tab.</p>
-<hr>
-
-<!--
-	Both examples above are using an absolute URL (a full web address) in the href attribute.
-
-A local link (a link to a page within the same website) is specified with a relative URL (without the "https://www" part):
-	-->
-
-<h2>Absolute URLs</h2>
-<p><a href="https://www.w3.org/">W3C</a></p>
-<p><a href="https://www.google.com/">Google</a></p>
-
-<h2>Relative URLs</h2>
-<p><a href="html_images.asp">HTML Images</a></p>
-<p><a href="/css/default.asp">CSS Tutorial</a></p>
-<hr>
-
-<h2>Image as a Link</h2>
-
-<p>The image below is a link. Try to click on it.</p>
-
-<a href="default.asp"><img src="HTML_TUTORIAL/smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;"></a>
-
-<hr>
-
-<h2>Link to an Email Address</h2>
-
-<p>To create a link that opens in the user's email program (to let them send a new email), use mailto: inside the href attribute:</p>
-
-<p><a href="mailto:nicopepe06@gmail.com" title="send email to Nico"  >Send email</a></p>
-<hr>
-
-<h2>Button as a Links</h2>
-
-<p>Click the button to go to the HTML tutorial.</p>
-
-<button onclick="document.location='https://www.w3schools.com/html/'">HTML Tutorial</button>
-<hr>
-
-
-<h2>The picture Element</h2>
-
-<picture>
-  <source media="(min-width: 650px)" srcset="HTML_TUTORIAL/cellphone.jpg">
-  <source media="(min-width: 465px)" srcset="HTML_TUTORIAL/mac.jpg" style="width:auto;">
-  <img src="HTML_TUTORIAL/smiley.gif" style="width:auto;">
-</picture>
-
-<!-- 
-Note: Always specify an <img> element as the last child element of the <picture> element. The <img> element is used by browsers that do not support the <picture> element, or if none of the <source> tags match.
+	Standout by Pixelarity
+	pixelarity.com | hello@pixelarity.com
+	License: pixelarity.com/license
 -->
+<html>
+	<head>
+		<title>Nicolo' Pedrani</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
 
-<p>Resize the browser to see different versions of the picture loading at different viewport sizes.
-The browser looks for the first source element where the media query matches the user's current viewport width,
-and fetches the image specified in the srcset attribute.</p>
+		<!-- Page wrapper -->
+			<div id="page-wrapper">
 
-<p>The img element is required as the last child tag of the picture declaration block.
-The img element is used to provide backward compatibility for browsers that do not support the picture element, or if none of the source tags matched.
-</p>
+				<!-- Header -->
+					<header id="header" class="alt">
+						<span class="logo"><a href="index.html">Nicolo'<span> Pedrani</span></a></span>
+						<a href="#menu"><span>Menu</span></a>
+					</header>
 
-<p><strong>Note:</strong> The picture element is not supported in IE12 and earlier or Safari 9.0 and earlier.</p>
+				<!-- Nav -->
+					<nav id="menu">
+						<div class="inner">
+							<h2>Menu</h2>
+							<ul class="links">
+								<li><a href="index.html">Home</a></li>
+								<li><a href="research.html">Research</a></li>
+								<li><a href="publications.html">Publications</a></li>
+							</ul>
+							<a class="close"><span>Close</span></a>
+						</div>
+					</nav>
 
+				<!-- Banner -->
+					<section id="banner">
+						<div class="inner">
+							<h1 style="float:center">NICOLO' PEDRANI</h1>
+							<div class="content">
+								<p><b>Phd Student, IIT Genova, Italy </b> <br />
+								Atomistic simulations  ·  Enhanced sampling  ·  Machine learning</p>
+								<ul class="actions special">
+									<li><a href="#footer" class="button large next">About</a></li>
+									<!-- <li><a href="portfolio.html" class="button large next">Research</a></li> -->
+								</ul>
+							</div>
+						</div>
+					</section>
 
-<h2>Table With Border</h2>
+				<!-- Footer -->
+					<section id="footer" class="wrapper">
+						<div class="inner">
+							<div class="split">
+								<div class="content">
+									<header>
+										<h2>About</h2>
+									</header>
+									<p><span class="image left" style="width: 30%"><img src="images/nico.jpeg" alt="" /></span>
+										I am a physicist interested in atomistic simulations, particularly the development of computational methods and their applications to complex problems ranging from biophysics to physics and chemistry.
+									</p>	
+									<p>
+										Currently I am a Ph.D. student under the supervision of Prof. Michele Parrinello, in the <a href='https://www.iit.it/research/lines/atomistic-simulations'>Atomistic Simulations group</a> at the Italian Institute of Technology, Genova, Italy.
+									</p>
+									<p>My research is focused on the integration of machine learning and enhanced sampling techniques to study rare events in physics, chemistry and biology. Examples are the data-driven identification of collective variables.</p>
+									<h5>Education</h5>
+									<p> 2015-2019 &emsp;&ensp;B.Sc. Physics, University of Milan (Italy)<br>
+											2019-2021 &emsp;&ensp;M.Sc. Physics, University of Milan (Italy)<br>
+											<!-- 2018-2021 &ensp;&ensp;Ph.D Physics, ETH Zurich (Switzerland) -->
+									</p>
+									<ul class="actions">
+										<li><a href="research.html" class="button next">Research</a></li>
+										<li><a href="publications.html" class="button next">Publications</a></li>
+									</ul>
+								</div>
+								<ul class="contact-icons">
+									<!-- <li><a href="https://scholar.google.com/citations?user=XPXf728AAAAJ&hl=en" target="_blank" class="icon solid fa-graduation-cap"><span class="label">Google Scholar</span></a></li> -->
+								    <li><a href="https://www.linkedin.com/in/nicolò-pedrani/" target="_blank" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+									<!-- <li><a href="https://orcid.org/0000-0002-6976-3458" target="_blank" class="icon brands alt fa-linkedin"><span class="label">ORCID</span></a></li> -->
+									<li><a href="https://sciprofiles.com/profile/2133085" target="_blank" class="icon brands alt fa-linkedin"><span class="label">SciProfiles</span></a></li>
+									<li><a href="https://github.com/nicolopedrani" target="_blank" class="icon brands alt fa-github-alt"><span class="label">GitHub</span></a></li>
+									<li><a href="https://twitter.com/PedraniNicolo" target="_blank" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="mailto:nicolo.pedrani@iit.it" class="icon solid alt fa-envelope"><span class="label">Contact</span></a></li>
+								</ul>
+							</div>
+						</div>
+					</section>
 
-<p>Use the CSS border property to add a border to the table.</p>
+				<!-- Copyright -->
+					<section class="wrapper style2 copyright">
+						<div class="inner">
+							&copy; Nicolo' Pedrani 2022
+						</div>
+					</section>
 
-<table style="width:100%">
-  <tr>
-    <th>Firstname</th>
-    <th>Lastname</th> 
-    <th>Age</th>
-  </tr>
-  <tr>
-    <td>Jill</td>
-    <td>Smith</td>
-    <td>50</td>
-  </tr>
-  <tr>
-    <td>Eve</td>
-    <td>Jackson</td>
-    <td>94</td>
-  </tr>
-  <tr>
-    <td>John</td>
-    <td>Doe</td>
-    <td>80</td>
-  </tr>
-</table>
+			</div>
 
-<!--
-With the border-style property, you can set the appereance of the border.
-The following values are allowed:
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
 
-dotted
-dashed
-solid
-double
-groove
-ridge
-inset
-outset
-none
-hidden
-
-	-->
-
-</body>
-
+	</body>
 </html>
